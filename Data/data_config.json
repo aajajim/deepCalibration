@@ -1,0 +1,33 @@
+{
+    "optionMaturities":[5],
+    "forwardRng":{
+        "min":-0.01,
+        "max":0.05,
+        "step":0.0001
+    },
+    "strikeRng":{
+        "min":0.5,
+        "max":1.5,
+        "step":0.005
+    },
+    "alphaRng":{
+        "min":0.01,
+        "max":1,
+        "step":0.0001
+    },
+    "betaRng":{
+        "min":0.5,
+        "max":0.5,
+        "step":0.1
+    },
+    "rhoRng":{
+        "min":-1,
+        "max":1,
+        "step":0.01
+    },
+    "nuRng":{
+        "min":0.01,
+        "max":1,
+        "step":0.0001
+    }
+}
