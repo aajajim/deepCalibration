@@ -1,5 +1,8 @@
 {
-    "optionMaturities":[5],
+
+    "numberOfSimulations":"5",
+    "shift":"0.015",   
+    "optionMaturities":[0.0833, 0.1667, 0.25, 0.5, 1, 1.5, 2, 3, 4, 5, 7, 10],
     "forwardRng":{
         "min":-0.01,
         "max":0.05,
